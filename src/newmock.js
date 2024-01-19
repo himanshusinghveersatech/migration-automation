@@ -1,6 +1,7 @@
 export const a = [
 
-    {
+    { 
+      "type": "checkbox",
       "name": "tabPageGeneral",
       "x": null,
       "y": null,
@@ -19,6 +20,7 @@ export const a = [
       },
       "childControls": [
         {
+          "type": "radioButton",
           "name": "accumulatorAdjustmentDetailsGeneral",
           "x": 0,
           "y": 0,
@@ -39,7 +41,8 @@ export const a = [
         }
       ]
     },
-    {
+    { 
+      "type": "text",
       "name": "tabPageWarnings",
       "x": null,
       "y": null,
@@ -58,6 +61,7 @@ export const a = [
       },
       "childControls": [
         {
+          "type": "text",
           "name": "warningsGrid",
           "x": 0,
           "y": 0,
@@ -82,6 +86,7 @@ export const a = [
       ]
     },
     {
+      "type": "button",
       "name": "tabControlAccumulatorAdjustment",
       "x": 0,
       "y": 0,

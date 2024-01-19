@@ -1,0 +1,30 @@
+
+.text-input{
+    margin-right: 3.5rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 0.7rem;
+  }
+  
+  .textBox{
+    margin: 0.5rem 0rem;
+  }
+  
+  .text-label{
+    display: inline-block;
+    width: 10rem;
+  }
+  
+  .no-input{
+    visibility: hidden;
+    margin-right: 3.5rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    width: 10rem;
+  }
+  
+  input[type="text"]::placeholder {
+    color: blue;
+  }
+  

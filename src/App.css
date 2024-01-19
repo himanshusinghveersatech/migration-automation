@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.panel-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.bottom-right-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: 700;
+  font-style: italic;
+}

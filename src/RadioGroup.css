@@ -1,0 +1,11 @@
+.radioGrp{
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+  }
+  
+  .labelRadio{
+    margin-right: 20px;
+  }
