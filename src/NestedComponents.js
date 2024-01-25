@@ -1,5 +1,5 @@
 import Panel from "./Panel/Panel";
-
+import './NestedComponents.css';
 function NestedComponents(props) {
     const x = props.data.childControls;
 
@@ -7,18 +7,12 @@ function NestedComponents(props) {
     return (
       
         <>
-        <Panel item={props.data} />
+     
      
         {
             props.data.childControls && props.data.childControls.map((ele) => {return <NestedComponents data={ele}/>})
         }
-
-
-
-
-
-
-
+           <Panel item={props.data} />
 
         {/* <p> {props.data.name}</p>
        
@@ -29,8 +23,8 @@ function NestedComponents(props) {
          {props.data.childControls && props.data.childControls.map((ele)=>{return <NestedComponents data={ele} />}) }
         </div>
          } */}
+        
         </>
-   
     )
 }
 

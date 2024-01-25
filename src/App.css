@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
 }
 
 .App-logo {
@@ -39,10 +40,12 @@
 .panel-container {
   border: 1px solid #ccc;
   padding: 10px;
-  margin: 10px 0px;
+  /* margin: 10px 0px; */
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  background: #E8D8C4;
+  border-bottom: 1px solid black;
 }
 
 .bottom-right-text {

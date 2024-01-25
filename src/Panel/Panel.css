@@ -1,10 +1,11 @@
 .panel-container {
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0px;
+    /* padding: 10px; */
+    /* margin: 10px 0px; */
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    justify-content: flex-start;
   }
   
   .bottom-right-text {
@@ -15,4 +16,17 @@
     font-style: italic;
   }
   
-  
+  .button-text{
+    width: 348px;
+
+  }
+
+  label{
+    width: 100px;
+  }
+
+  .textstyle{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }

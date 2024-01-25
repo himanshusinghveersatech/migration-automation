@@ -2,17 +2,25 @@ import React from "react";
 import "./Dropdown.css";
 
 
-const Dropdown = (items, name ) => {
+const Dropdown = (items) => {
+  const x = items.items.properties.Items;
   return (
-    <div>
-      <label>
-        <div className="dropdown">{name}</div>
-        <select className="select-tag">
-          {items.map((item) => (
-            <option key={item}>{item}</option>
-          ))}
-        </select>
-      </label>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Dropdown
+        <div id="myDropdown" class="dropdown-content"> 
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </button>
+       {x.map((data)=>{ return (
+        <div className="radio-elements ">
+        {console.log(data,"-----------")}
+        <input type="radio"/>
+        <label>{data.Discricption}</label>
+        </div>
+      )})}
     </div>
   );
 };
