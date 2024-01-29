@@ -18,8 +18,8 @@ function TextBox(item) {
           name="item"
           placeholder={"Type here..."}
         />
-     
      </>
+     
   );
 };
 

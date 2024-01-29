@@ -16,37 +16,55 @@ function App() {
   }
   const renderdata = [];
 
-  const traverseRecursive = (x)=>{
+  const traverseRecursive = (x,panel)=>{
     if(x.childControls.length){
       x.childControls.forEach((data)=>{
-        traverseRecursive(data);
+        traverseRecursive(data,panel);
       })  
     }
     else{
-      renderdata.push(x);
+      panel.push(x);
     }
   }
   b.forEach((data)=>{
-    traverseRecursive(data);
+    const panel = [];
+    traverseRecursive(data,panel);
+    renderdata.push(panel);
   })
-  renderdata.reverse();
+  // renderdata.reverse();
+  // b.reverse();
+
+
+  const recursiveReverse = (b)=>{
+      b.reverse()
+      for(let i = 0; i < b.length;i++){
+        if(b[i].childControls.length)
+        recursiveReverse(b[i].childControls)
+      }
+    
+  }
+
+  recursiveReverse(b);
+  
   console.log("renderdata",renderdata);
   return (
-    <div className="App">
-      {renderdata.map((data)=>{
-       return  <Panel item={data} />
-      })}
-      {/* {b.map(ele=>{ 
-      return<div className="panel-container"><NestedComponents data = {ele} key={ele.name} /> </div>}
-      )}
-   */}
+    // < className="App">
+    //   {renderdata.map((data)=>{
+    //    return <div>{data.map((renderComp)=>{
+    //     return <Panel item={renderComp} />
+    //    })}</div>
+    //   })}
+      <div>{b.map(ele=>{ 
+        return<div className="panel-container"><NestedComponents data = {ele} key={ele.name} /> </div>}
+        )}</div>
+   
 
    
 
 
   
 
-    </div>
+    
   );
 }
 

@@ -8,11 +8,11 @@ function NestedComponents(props) {
       
         <>
      
-     
+     <Panel item={props.data} />
         {
             props.data.childControls && props.data.childControls.map((ele) => {return <NestedComponents data={ele}/>})
         }
-           <Panel item={props.data} />
+          
 
         {/* <p> {props.data.name}</p>
        
