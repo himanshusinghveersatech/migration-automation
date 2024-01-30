@@ -5,10 +5,12 @@
     padding: 0.5rem;
     width: 10rem;
     height: 0.7rem;
+    background: transparent;
+    border: 2px solid black
   }
   
   .textBox{
-    margin: 0.5rem 0rem;
+    margin: 1rem 0rem;
     width: 100%;
     display: flex;
     justify-content: flex-start;

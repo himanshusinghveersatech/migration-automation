@@ -14,7 +14,7 @@ function Panel(props) {
       {props.item && props.item.type === "radioButton" &&  <RadioGroup items={props.item} key={props.item.type}></RadioGroup>}
       {props.item && props.item.type === "dropdown" &&  <Dropdown items={props.item} name={props.item.properties.LabelText}></Dropdown>}
       {props.item && props.item.type === "textbox" && <TextBox item={props.item.properties.LabelText || props.item.name} key="item.name"></TextBox>}
-      {props.item && props.item.type === "button" && <div className="textstyle"><button className="button-text">Button Control</button></div>}
+      {props.item && props.item.type === "button" && <div className="textstyle"><button className="button-text">{props.item.name}</button></div>}
       {props.item && props.item.type === "checkbox" && <div>     <input type="checkbox" name="item"  /> 
       {props.item && props.item.type === "Link" && <div>{props.item.properties.LabelText }</div>}
       <label>{props.item.name}</label>  </div>}

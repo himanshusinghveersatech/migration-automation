@@ -2156,3 +2156,1136 @@ export const a = [
 //     ]
 //   }
 // ]
+
+export const c = [
+  {
+    "name": "components",
+    "type": null,
+    "x": null,
+    "y": null,
+    "controls": null,
+    "parentControl": null,
+    "properties": {},
+    "childControls": []
+  },
+  {
+    "name": "entityPanelAccumulatorAdjustment",
+    "type": null,
+    "x": 0,
+    "y": 0,
+    "controls": [
+      "panelControlAdjustmentInformation",
+      "autoSizingPanelSubscriptionMember"
+    ],
+    "parentControl": null,
+    "properties": {
+      "entityPanelAccumulatorAdjustment": "HealthEdge.Controls.MetadataDriven.EntityPanel",
+      "AutoHeight": true,
+      "AutoWidth": false,
+      "Dock": "Fill",
+      "EntityType": "AccumulatorAdjustment",
+      "Hidden": false,
+      "Margin": "System.Windows.Forms.Padding",
+      "Size": {
+        "width": 1301,
+        "height": 596
+      },
+      "TabIndex": 0,
+      "XPadding": 0,
+      "YPadding": 0
+    },
+    "childControls": [
+      {
+        "name": "panelControlAdjustmentInformation",
+        "type": null,
+        "x": 0,
+        "y": 168,
+        "controls": [
+          "autoSizingPanelAdjustmentUnitAndAmount",
+          "panelControlGeneral"
+        ],
+        "parentControl": "entityPanelAccumulatorAdjustment",
+        "properties": {
+          "panelControlAdjustmentInformation": "HealthEdge.Controls.AutoSizingPanel",
+          "AutoHeight": true,
+          "AutoWidth": false,
+          "Dock": "Top",
+          "Hidden": false,
+          "Margin": "System.Windows.Forms.Padding",
+          "Size": {
+            "width": 1301,
+            "height": 325
+          },
+          "TabIndex": 53,
+          "XPadding": 0,
+          "YPadding": 0,
+          "Row": 1,
+          "Column": 0
+        },
+        "childControls": [
+          {
+            "name": "autoSizingPanelAdjustmentUnitAndAmount",
+            "type": null,
+            "x": 0,
+            "y": 213,
+            "controls": [
+              "autoSizingPanelAdjustAmount",
+              "panelControlAdjustmentUnitType"
+            ],
+            "parentControl": "panelControlAdjustmentInformation",
+            "properties": {
+              "autoSizingPanelAdjustmentUnitAndAmount": "HealthEdge.Controls.AutoSizingPanel",
+              "AutoHeight": true,
+              "AutoWidth": false,
+              "Dock": "Top",
+              "Hidden": false,
+              "Margin": "System.Windows.Forms.Padding",
+              "Padding": "System.Windows.Forms.Padding",
+              "Size": {
+                "width": 1301,
+                "height": 145
+              },
+              "TabIndex": 67,
+              "XPadding": 0,
+              "YPadding": 0,
+              "Row": 1,
+              "Column": 0
+            },
+            "childControls": [
+              {
+                "name": "autoSizingPanelAdjustAmount",
+                "type": null,
+                "x": 0,
+                "y": 62,
+                "controls": [
+                  "autoEditAdjustmentDays",
+                  "autoEditAdjustmentUnitCount",
+                  "autoEditAdjustmentDollarAmount"
+                ],
+                "parentControl": "autoSizingPanelAdjustmentUnitAndAmount",
+                "properties": {
+                  "autoSizingPanelAdjustAmount": "HealthEdge.Controls.AutoSizingPanel",
+                  "AutoHeight": true,
+                  "AutoWidth": false,
+                  "Dock": "Top",
+                  "Hidden": false,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "Size": {
+                    "width": 1301,
+                    "height": 67
+                  },
+                  "TabIndex": 71,
+                  "XPadding": 0,
+                  "YPadding": 0,
+                  "Row": 1,
+                  "Column": 0
+                },
+                "childControls": [
+                  {
+                    "name": "autoEditAdjustmentDays",
+                    "type": "textbox",
+                    "x": 800,
+                    "y": 10,
+                    "controls": null,
+                    "parentControl": "autoSizingPanelAdjustAmount",
+                    "properties": {
+                      "autoEditAdjustmentDays": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                      "AlertTypeName": null,
+                      "AlignmentColumn": "Column1",
+                      "AttachedReferenceMenuButton": null,
+                      "AutoShowPopup": true,
+                      "ComboBoxItems": null,
+                      "CustomAlertImage": null,
+                      "CustomAlertToolTipText": null,
+                      "CustomAlertToolTipTitle": null,
+                      "CustomLookupNameValues": null,
+                      "EditType": "Automatic",
+                      "EnableCustomMask": false,
+                      "EnableTextEditor": false,
+                      "HasPrivacyInfo": false,
+                      "HideLabel": false,
+                      "HideShortDescriptionField": false,
+                      "IgnoreMask": false,
+                      "IgnorePropertyChangedEvent": false,
+                      "LabelDock": "Left",
+                      "LabelText": "Adjustment Days",
+                      "LabelWidth": 110,
+                      "LinkType": null,
+                      "LongDescriptionField": null,
+                      "Margin": "System.Windows.Forms.Padding",
+                      "NullValuePrompt": null,
+                      "Padding": "System.Windows.Forms.Padding",
+                      "Path": "AdjustmentDayCount",
+                      "PHIRestricted": false,
+                      "PositiveOnlyCurrency": false,
+                      "ReadOnly": true,
+                      "ShortDescriptionField": null,
+                      "ShowCustomAlert": false,
+                      "Size": {
+                        "width": 417,
+                        "height": 29
+                      },
+                      "TabIndex": 74,
+                      "ToolTipPath": null,
+                      "Row": 0,
+                      "Column": 2
+                    },
+                    "childControls": []
+                  },
+                  {
+                    "name": "autoEditAdjustmentUnitCount",
+                    "type": "textbox",
+                    "x": 501,
+                    "y": 10,
+                    "controls": null,
+                    "parentControl": "autoSizingPanelAdjustAmount",
+                    "properties": {
+                      "autoEditAdjustmentUnitCount": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                      "AlertTypeName": null,
+                      "AlignmentColumn": "Column1",
+                      "AllowNullInput": true,
+                      "AttachedReferenceMenuButton": null,
+                      "AutoShowPopup": true,
+                      "ComboBoxItems": null,
+                      "CustomAlertImage": null,
+                      "CustomAlertToolTipText": null,
+                      "CustomAlertToolTipTitle": null,
+                      "CustomLookupNameValues": null,
+                      "EditType": "Automatic",
+                      "EnableCustomMask": false,
+                      "EnableTextEditor": false,
+                      "HasPrivacyInfo": false,
+                      "HideLabel": false,
+                      "HideShortDescriptionField": false,
+                      "IgnoreMask": false,
+                      "IgnorePropertyChangedEvent": false,
+                      "LabelDock": "Left",
+                      "LabelText": "Adjustment Unit",
+                      "LabelWidth": 110,
+                      "LinkType": null,
+                      "LongDescriptionField": null,
+                      "Margin": "System.Windows.Forms.Padding",
+                      "NullValuePrompt": null,
+                      "Padding": "System.Windows.Forms.Padding",
+                      "Path": "AdjustmentUnitCount",
+                      "PHIRestricted": false,
+                      "PositiveOnlyCurrency": false,
+                      "ReadOnly": true,
+                      "ShortDescriptionField": null,
+                      "ShowCustomAlert": false,
+                      "Size": {
+                        "width": 417,
+                        "height": 29
+                      },
+                      "TabIndex": 73,
+                      "ToolTipPath": null,
+                      "Row": 0,
+                      "Column": 1
+                    },
+                    "childControls": []
+                  },
+                  {
+                    "name": "autoEditAdjustmentDollarAmount",
+                    "type": "textbox",
+                    "x": 10,
+                    "y": 10,
+                    "controls": null,
+                    "parentControl": "autoSizingPanelAdjustAmount",
+                    "properties": {
+                      "autoEditAdjustmentDollarAmount": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                      "AlertTypeName": null,
+                      "AlignmentColumn": "Column1",
+                      "AllowNullInput": true,
+                      "AttachedReferenceMenuButton": null,
+                      "AutoShowPopup": true,
+                      "ComboBoxItems": null,
+                      "CustomAlertImage": null,
+                      "CustomAlertToolTipText": null,
+                      "CustomAlertToolTipTitle": null,
+                      "CustomLookupNameValues": null,
+                      "EditType": "Automatic",
+                      "EnableCustomMask": false,
+                      "EnableTextEditor": false,
+                      "HasPrivacyInfo": false,
+                      "HideLabel": false,
+                      "HideShortDescriptionField": false,
+                      "IgnoreMask": false,
+                      "IgnorePropertyChangedEvent": false,
+                      "LabelDock": "Left",
+                      "LabelText": "Adjustment Amount",
+                      "LabelWidth": 110,
+                      "LinkType": null,
+                      "LongDescriptionField": null,
+                      "Margin": "System.Windows.Forms.Padding",
+                      "NullValuePrompt": null,
+                      "Padding": "System.Windows.Forms.Padding",
+                      "Path": "AdjustmentDollarAmount",
+                      "PHIRestricted": false,
+                      "PositiveOnlyCurrency": false,
+                      "ReadOnly": true,
+                      "ShortDescriptionField": null,
+                      "ShowCustomAlert": false,
+                      "Size": {
+                        "width": 417,
+                        "height": 29
+                      },
+                      "TabIndex": 72,
+                      "ToolTipPath": null,
+                      "Row": 0,
+                      "Column": 0
+                    },
+                    "childControls": []
+                  }
+                ]
+              },
+              {
+                "name": "panelControlAdjustmentUnitType",
+                "type": null,
+                "x": 0,
+                "y": 9,
+                "controls": [
+                  "groupBoxAmountOrUnits"
+                ],
+                "parentControl": "autoSizingPanelAdjustmentUnitAndAmount",
+                "properties": {
+                  "panelControlAdjustmentUnitType": "HealthEdge.Controls.AutoSizingPanel",
+                  "AutoHeight": true,
+                  "AutoWidth": false,
+                  "Dock": "Top",
+                  "Hidden": false,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "Size": {
+                    "width": 1301,
+                    "height": 53
+                  },
+                  "TabIndex": 68,
+                  "XPadding": 0,
+                  "YPadding": 0,
+                  "Row": 0,
+                  "Column": 0
+                },
+                "childControls": [
+                  {
+                    "name": "groupBoxAmountOrUnits",
+                    "type": null,
+                    "x": 22,
+                    "y": 0,
+                    "controls": [
+                      "radioGroupAdjustmentUnitType"
+                    ],
+                    "parentControl": "panelControlAdjustmentUnitType",
+                    "properties": {
+                      "groupBoxAmountOrUnits": "DevExpress.XtraEditors.GroupControl",
+                      "Margin": "System.Windows.Forms.Padding",
+                      "ShowCaption": false,
+                      "Size": {
+                        "width": 333,
+                        "height": 51
+                      },
+                      "TabIndex": 69,
+                      "Row": 0,
+                      "Column": 0
+                    },
+                    "childControls": [
+                      {
+                        "name": "radioGroupAdjustmentUnitType",
+                        "type": "radioButton",
+                        "x": 4,
+                        "y": 7,
+                        "controls": null,
+                        "parentControl": "groupBoxAmountOrUnits",
+                        "properties": {
+                          "radioGroupAdjustmentUnitType": "DevExpress.XtraEditors.RadioGroup",
+                          "EditValue": 0,
+                          "Margin": "System.Windows.Forms.Padding",
+                          "AllowMouseWheel": false,
+                          "BackColor": "Transparent",
+                          "UseBackColor": true,
+                          "BorderStyle": "NoBorder",
+                          "Items": [],
+                          "ReadOnly": true,
+                          "Size": {
+                            "width": 322,
+                            "height": 37
+                          },
+                          "TabIndex": 70,
+                          "SelectedIndexChanged": "System.EventHandler",
+                          "Row": 0,
+                          "Column": 0
+                        },
+                        "childControls": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "panelControlGeneral",
+            "type": null,
+            "x": 0,
+            "y": 0,
+            "controls": [
+              "autoEditDescription",
+              "autoEditAccumulatorLabel",
+              "autoEditStartDate",
+              "autoEditEndDate",
+              "codeEntryEditAdjustmentSource",
+              "codeEntryEditBenefitPlanType"
+            ],
+            "parentControl": "panelControlAdjustmentInformation",
+            "properties": {
+              "panelControlGeneral": "HealthEdge.Controls.AutoSizingPanel",
+              "AutoHeight": true,
+              "AutoWidth": false,
+              "Dock": "Top",
+              "Hidden": false,
+              "Margin": "System.Windows.Forms.Padding",
+              "Size": {
+                "width": 1301,
+                "height": 213
+              },
+              "TabIndex": 54,
+              "XPadding": 0,
+              "YPadding": 0,
+              "Row": 0,
+              "Column": 0
+            },
+            "childControls": [
+              {
+                "name": "autoEditDescription",
+                "type": "textbox",
+                "x": 531,
+                "y": 95,
+                "controls": null,
+                "parentControl": "panelControlGeneral",
+                "properties": {
+                  "autoEditDescription": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                  "AlertTypeName": null,
+                  "AlignmentColumn": "Column5",
+                  "AttachedReferenceMenuButton": null,
+                  "AutoShowPopup": true,
+                  "ComboBoxItems": null,
+                  "CustomAlertImage": null,
+                  "CustomAlertToolTipText": null,
+                  "CustomAlertToolTipTitle": null,
+                  "CustomLookupNameValues": null,
+                  "EditType": "Automatic",
+                  "EnableCustomMask": false,
+                  "EnableTextEditor": false,
+                  "HasPrivacyInfo": false,
+                  "HideLabel": false,
+                  "HideShortDescriptionField": false,
+                  "IgnoreMask": false,
+                  "IgnorePropertyChangedEvent": false,
+                  "LabelDock": "Left",
+                  "LabelText": "Description",
+                  "LinkType": null,
+                  "LongDescriptionField": null,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "NullValuePrompt": null,
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "Description",
+                  "PHIRestricted": false,
+                  "PositiveOnlyCurrency": false,
+                  "ReadOnly": true,
+                  "ShortDescriptionField": null,
+                  "ShowCustomAlert": false,
+                  "Size": {
+                    "width": 402,
+                    "height": 29
+                  },
+                  "TabIndex": 66,
+                  "ToolTipPath": null,
+                  "Row": 3,
+                  "Column": 1
+                },
+                "childControls": []
+              },
+              {
+                "name": "autoEditAccumulatorLabel",
+                "type": "textbox",
+                "x": 10,
+                "y": 53,
+                "controls": null,
+                "parentControl": "panelControlGeneral",
+                "properties": {
+                  "autoEditAccumulatorLabel": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                  "AlertTypeName": null,
+                  "AlignmentColumn": "Column1",
+                  "AttachedReferenceMenuButton": null,
+                  "AutoShowPopup": true,
+                  "ComboBoxItems": null,
+                  "CustomAlertImage": null,
+                  "CustomAlertToolTipText": null,
+                  "CustomAlertToolTipTitle": null,
+                  "CustomLookupNameValues": null,
+                  "EditType": "ComboBoxEdit",
+                  "EnableCustomMask": false,
+                  "EnableTextEditor": false,
+                  "HasPrivacyInfo": false,
+                  "HideLabel": false,
+                  "HideShortDescriptionField": false,
+                  "IgnoreMask": false,
+                  "IgnorePropertyChangedEvent": false,
+                  "LabelDock": "Left",
+                  "LabelText": "Provision Label",
+                  "LabelWidth": 110,
+                  "LinkType": null,
+                  "LongDescriptionField": null,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "NullValuePrompt": null,
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "ProvisionLabel",
+                  "PHIRestricted": false,
+                  "PositiveOnlyCurrency": false,
+                  "ReadOnly": true,
+                  "ShortDescriptionField": null,
+                  "ShowCustomAlert": false,
+                  "Size": {
+                    "width": 417,
+                    "height": 29
+                  },
+                  "TabIndex": 61,
+                  "ToolTipPath": null,
+                  "Leave": "System.EventHandler",
+                  "Row": 2,
+                  "Column": 1
+                },
+                "childControls": []
+              },
+              {
+                "name": "autoEditStartDate",
+                "type": "textbox",
+                "x": 10,
+                "y": 10,
+                "controls": null,
+                "parentControl": "panelControlGeneral",
+                "properties": {
+                  "autoEditStartDate": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                  "AlertTypeName": null,
+                  "AlignmentColumn": "Column1",
+                  "AttachedReferenceMenuButton": null,
+                  "AutoShowPopup": true,
+                  "ComboBoxItems": null,
+                  "CustomAlertImage": null,
+                  "CustomAlertToolTipText": null,
+                  "CustomAlertToolTipTitle": null,
+                  "CustomLookupNameValues": null,
+                  "EditType": "Automatic",
+                  "EnableCustomMask": false,
+                  "EnableTextEditor": false,
+                  "HasPrivacyInfo": false,
+                  "HideLabel": false,
+                  "HideShortDescriptionField": false,
+                  "IgnoreMask": false,
+                  "IgnorePropertyChangedEvent": false,
+                  "LabelDock": "Left",
+                  "LabelText": "Start Date",
+                  "LabelWidth": 110,
+                  "LinkType": null,
+                  "LongDescriptionField": null,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "NullValuePrompt": null,
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "StartDate",
+                  "PHIRestricted": false,
+                  "PositiveOnlyCurrency": false,
+                  "ReadOnly": true,
+                  "ShortDescriptionField": null,
+                  "ShowCustomAlert": false,
+                  "Size": {
+                    "width": 417,
+                    "height": 29
+                  },
+                  "TabIndex": 55,
+                  "ToolTipPath": null,
+                  "OnEditValueChanged": "System.EventHandler",
+                  "Leave": "System.EventHandler",
+                  "Row": 0,
+                  "Column": 0
+                },
+                "childControls": []
+              },
+              {
+                "name": "autoEditEndDate",
+                "type": "textbox",
+                "x": 531,
+                "y": 10,
+                "controls": null,
+                "parentControl": "panelControlGeneral",
+                "properties": {
+                  "autoEditEndDate": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                  "AlertTypeName": null,
+                  "AlignmentColumn": "Column5",
+                  "AttachedReferenceMenuButton": null,
+                  "AutoShowPopup": true,
+                  "ComboBoxItems": null,
+                  "CustomAlertImage": null,
+                  "CustomAlertToolTipText": null,
+                  "CustomAlertToolTipTitle": null,
+                  "CustomLookupNameValues": null,
+                  "EditType": "Automatic",
+                  "EnableCustomMask": false,
+                  "EnableTextEditor": false,
+                  "HasPrivacyInfo": false,
+                  "HideLabel": false,
+                  "HideShortDescriptionField": false,
+                  "IgnoreMask": false,
+                  "IgnorePropertyChangedEvent": false,
+                  "LabelDock": "Left",
+                  "LabelText": "Through Date",
+                  "LinkType": null,
+                  "LongDescriptionField": null,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "NullValuePrompt": null,
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "EndDate",
+                  "PHIRestricted": false,
+                  "PositiveOnlyCurrency": false,
+                  "ReadOnly": true,
+                  "ShortDescriptionField": null,
+                  "ShowCustomAlert": false,
+                  "Size": {
+                    "width": 402,
+                    "height": 29
+                  },
+                  "TabIndex": 56,
+                  "ToolTipPath": null,
+                  "Row": 0,
+                  "Column": 1
+                },
+                "childControls": []
+              },
+              {
+                "name": "codeEntryEditAdjustmentSource",
+                "type": "default",
+                "x": 10,
+                "y": 95,
+                "controls": null,
+                "parentControl": "panelControlGeneral",
+                "properties": {
+                  "codeEntryEditAdjustmentSource": "HealthEdge.Controls.MetadataDriven.CodeEntryEdit",
+                  "AlignmentColumn": "Column1",
+                  "AllowDelete": false,
+                  "AllowMultipleColumnSearch": false,
+                  "AutoHeight": false,
+                  "AutoSize": true,
+                  "AutoSizeMode": "GrowAndShrink",
+                  "AutoWidth": false,
+                  "CodeSetName": "AccumulatorAdjustmentSource",
+                  "EditControlWidth": 168,
+                  "EditType": "Automatic",
+                  "Hidden": false,
+                  "Index": 0,
+                  "LabelText": "Adjustment Source",
+                  "LabelWidth": 110,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "AdjustmentSource",
+                  "ReadOnly": true,
+                  "ShowCodeEntryValueColumn": false,
+                  "Size": {
+                    "width": 112,
+                    "height": 33
+                  },
+                  "TabIndex": 62,
+                  "Row": 3,
+                  "Column": 1
+                },
+                "childControls": []
+              },
+              {
+                "name": "codeEntryEditBenefitPlanType",
+                "type": "default",
+                "x": 531,
+                "y": 50,
+                "controls": null,
+                "parentControl": "panelControlGeneral",
+                "properties": {
+                  "codeEntryEditBenefitPlanType": "HealthEdge.Controls.MetadataDriven.CodeEntryEdit",
+                  "AlignmentColumn": "Column5",
+                  "AllowDelete": false,
+                  "AllowMultipleColumnSearch": false,
+                  "AutoHeight": false,
+                  "AutoSize": true,
+                  "AutoSizeMode": "GrowAndShrink",
+                  "AutoWidth": false,
+                  "CodeSetName": "BenefitPlanType",
+                  "EditControlWidth": 168,
+                  "EditType": "Automatic",
+                  "Hidden": false,
+                  "Index": 0,
+                  "LabelText": "Benefit Plan Type",
+                  "Margin": "System.Windows.Forms.Padding",
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "BenefitPlanType",
+                  "ReadOnly": true,
+                  "ShowCodeEntryValueColumn": false,
+                  "Size": {
+                    "width": 102,
+                    "height": 33
+                  },
+                  "TabIndex": 57,
+                  "Row": 1,
+                  "Column": 1
+                },
+                "childControls": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "autoSizingPanelSubscriptionMember",
+        "type": null,
+        "x": 0,
+        "y": 0,
+        "controls": [
+          "subEntityPanelAuthorizedMember",
+          "subEntityPanelSubscription",
+          "panelControlMemberOrSubscription"
+        ],
+        "parentControl": "entityPanelAccumulatorAdjustment",
+        "properties": {
+          "autoSizingPanelSubscriptionMember": "HealthEdge.Controls.AutoSizingPanel",
+          "AutoHeight": true,
+          "AutoWidth": false,
+          "Dock": "Top",
+          "Hidden": false,
+          "Margin": "System.Windows.Forms.Padding",
+          "Size": {
+            "width": 1301,
+            "height": 168
+          },
+          "TabIndex": 0,
+          "XPadding": 0,
+          "YPadding": 0,
+          "Row": 0,
+          "Column": 0
+        },
+        "childControls": [
+          {
+            "name": "subEntityPanelAuthorizedMember",
+            "type": null,
+            "x": 0,
+            "y": 47,
+            "controls": [
+              "memberMenuButton",
+              "subEntityPanelMemberIle",
+              "autoEditHccIdentifier"
+            ],
+            "parentControl": "autoSizingPanelSubscriptionMember",
+            "properties": {
+              "subEntityPanelAuthorizedMember": "HealthEdge.Controls.MetadataDriven.SubEntityPanel",
+              "AutoHeight": true,
+              "AutoWidth": false,
+              "Dock": "Top",
+              "EntityType": "Membership",
+              "Hidden": false,
+              "Margin": "System.Windows.Forms.Padding",
+              "Path": "Member",
+              "ReadOnly": true,
+              "Size": {
+                "width": 1301,
+                "height": 44
+              },
+              "TabIndex": 7,
+              "XPadding": 0,
+              "YPadding": 0,
+              "EntityChanged": "System.EventHandler",
+              "Row": 1,
+              "Column": 0
+            },
+            "childControls": [
+              {
+                "name": "memberMenuButton",
+                "type": "button",
+                "x": 468,
+                "y": 4,
+                "controls": null,
+                "parentControl": "subEntityPanelAuthorizedMember",
+                "properties": {
+                  "memberMenuButton": "HealthEdge.Controls.ReferenceMenuButton",
+                  "Image": "memberMenuButton.ImageOptions.Image",
+                  "UseImage": true,
+                  "AutoPosition": true,
+                  "CanCreate": false,
+                  "CreateDocumentType": "None",
+                  "Down": false,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "MaximumSize": {
+                    "width": 27,
+                    "height": 26
+                  },
+                  "ResolverTypeName": "HealthEdge.Controls.Inquiry.MemberResolver",
+                  "Size": {
+                    "width": 27,
+                    "height": 26
+                  },
+                  "SubEntityPanel": "subEntityPanelAuthorizedMember",
+                  "TabIndex": 51,
+                  "TargetControlName": "subEntityPanelLegalName",
+                  "Visible": false,
+                  "Resolved": "HealthEdge.Controls.ReferenceResolved",
+                  "ClearClicked": "System.EventHandler",
+                  "Row": 1,
+                  "Column": 1
+                },
+                "childControls": []
+              },
+              {
+                "name": "subEntityPanelMemberIle",
+                "type": null,
+                "x": 12,
+                "y": 0,
+                "controls": [
+                  "subEntityPanelLegalName"
+                ],
+                "parentControl": "subEntityPanelAuthorizedMember",
+                "properties": {
+                  "subEntityPanelMemberIle": "HealthEdge.Controls.MetadataDriven.SubEntityPanel",
+                  "AutoHeight": false,
+                  "AutoWidth": false,
+                  "EntityType": "IndividualInformation",
+                  "Hidden": false,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "Path": "Individual",
+                  "ReadOnly": true,
+                  "Size": {
+                    "width": 426,
+                    "height": 35
+                  },
+                  "TabIndex": 8,
+                  "XPadding": 0,
+                  "YPadding": 0,
+                  "Row": 0,
+                  "Column": 0
+                },
+                "childControls": [
+                  {
+                    "name": "subEntityPanelLegalName",
+                    "type": null,
+                    "x": 0,
+                    "y": 0,
+                    "controls": [
+                      "personNameViewControl"
+                    ],
+                    "parentControl": "subEntityPanelMemberIle",
+                    "properties": {
+                      "subEntityPanelLegalName": "HealthEdge.Controls.MetadataDriven.SubEntityPanel",
+                      "AutoHeight": false,
+                      "AutoWidth": false,
+                      "EntityType": null,
+                      "Hidden": false,
+                      "Margin": "System.Windows.Forms.Padding",
+                      "Path": "PrimaryName",
+                      "ReadOnly": true,
+                      "Size": {
+                        "width": 428,
+                        "height": 37
+                      },
+                      "TabIndex": 9,
+                      "XPadding": 0,
+                      "YPadding": 0,
+                      "Row": 0,
+                      "Column": 0
+                    },
+                    "childControls": [
+                      {
+                        "name": "personNameViewControl",
+                        "type": "Link",
+                        "x": 0,
+                        "y": 4,
+                        "controls": null,
+                        "parentControl": "subEntityPanelLegalName",
+                        "properties": {
+                          "personNameViewControl": "HealthEdge.Controls.IndividualLegalEntity.PersonNameViewControl",
+                          "AlignmentColumn": "Column1",
+                          "AttachedReferenceMenuButton": "memberMenuButton",
+                          "LabelText": "Member Name: ",
+                          "LabelWidth": 110,
+                          "Linked": true,
+                          "LinkType": "Member",
+                          "Margin": "System.Windows.Forms.Padding",
+                          "PHI": false,
+                          "Size": {
+                            "width": 417,
+                            "height": 29
+                          },
+                          "TabIndex": 10,
+                          "VIP": false,
+                          "LinkClick": "DevExpress.XtraEditors.Controls.OpenLinkEventHandler",
+                          "Row": 0,
+                          "Column": 0
+                        },
+                        "childControls": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "autoEditHccIdentifier",
+                "type": "textbox",
+                "x": 531,
+                "y": 4,
+                "controls": null,
+                "parentControl": "subEntityPanelAuthorizedMember",
+                "properties": {
+                  "autoEditHccIdentifier": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                  "AlertTypeName": null,
+                  "AlignmentColumn": "Column5",
+                  "AllowEditing": false,
+                  "AttachedReferenceMenuButton": null,
+                  "AutoShowPopup": true,
+                  "ComboBoxItems": null,
+                  "CustomAlertImage": null,
+                  "CustomAlertToolTipText": null,
+                  "CustomAlertToolTipTitle": null,
+                  "CustomLookupNameValues": null,
+                  "EditType": "Automatic",
+                  "EnableCustomMask": false,
+                  "EnableTextEditor": false,
+                  "HasPrivacyInfo": false,
+                  "HideLabel": false,
+                  "HideShortDescriptionField": false,
+                  "IgnoreMask": false,
+                  "IgnorePropertyChangedEvent": false,
+                  "LabelDock": "Left",
+                  "LabelText": "Member ID",
+                  "LinkType": null,
+                  "LongDescriptionField": null,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "NullValuePrompt": null,
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "HccIdentifier",
+                  "PHIRestricted": false,
+                  "PositiveOnlyCurrency": false,
+                  "ReadOnly": true,
+                  "ShortDescriptionField": null,
+                  "ShowCustomAlert": false,
+                  "Size": {
+                    "width": 402,
+                    "height": 29
+                  },
+                  "TabIndex": 52,
+                  "ToolTipPath": null,
+                  "Row": 1,
+                  "Column": 2
+                },
+                "childControls": []
+              }
+            ]
+          },
+          {
+            "name": "subEntityPanelSubscription",
+            "type": null,
+            "x": 0,
+            "y": 0,
+            "controls": [
+              "subscriptionMenuButton",
+              "autoEditSubscriptionHccId"
+            ],
+            "parentControl": "autoSizingPanelSubscriptionMember",
+            "properties": {
+              "subEntityPanelSubscription": "HealthEdge.Controls.MetadataDriven.SubEntityPanel",
+              "AutoHeight": true,
+              "AutoWidth": false,
+              "Dock": "Top",
+              "EntityType": "Subscription",
+              "Hidden": false,
+              "Margin": "System.Windows.Forms.Padding",
+              "Path": "Subscription",
+              "ReadOnly": true,
+              "Size": {
+                "width": 1301,
+                "height": 47
+              },
+              "TabIndex": 4,
+              "XPadding": 0,
+              "YPadding": 0,
+              "EntityChanged": "System.EventHandler",
+              "Row": 0,
+              "Column": 0
+            },
+            "childControls": [
+              {
+                "name": "subscriptionMenuButton",
+                "type": "button",
+                "x": 466,
+                "y": 3,
+                "controls": null,
+                "parentControl": "subEntityPanelSubscription",
+                "properties": {
+                  "subscriptionMenuButton": "HealthEdge.Controls.ReferenceMenuButton",
+                  "Image": "subscriptionMenuButton.ImageOptions.Image",
+                  "UseImage": true,
+                  "AutoPosition": true,
+                  "CanCreate": false,
+                  "CreateDocumentType": "None",
+                  "Down": false,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "MaximumSize": {
+                    "width": 27,
+                    "height": 26
+                  },
+                  "ResolverTypeName": "HealthEdge.Controls.Inquiry.SubscriptionResolver",
+                  "Size": {
+                    "width": 27,
+                    "height": 26
+                  },
+                  "SubEntityPanel": "subEntityPanelSubscription",
+                  "TabIndex": 6,
+                  "TargetControlName": "autoEditSubscriptionHccId",
+                  "Visible": false,
+                  "Resolved": "HealthEdge.Controls.ReferenceResolved",
+                  "ClearClicked": "System.EventHandler",
+                  "Row": 0,
+                  "Column": 0
+                },
+                "childControls": []
+              },
+              {
+                "name": "autoEditSubscriptionHccId",
+                "type": "textbox",
+                "x": 12,
+                "y": 10,
+                "controls": null,
+                "parentControl": "subEntityPanelSubscription",
+                "properties": {
+                  "autoEditSubscriptionHccId": "HealthEdge.Controls.MetadataDriven.AutoEdit",
+                  "AlertTypeName": null,
+                  "AlignmentColumn": "Column1",
+                  "AllowEditing": false,
+                  "AttachedReferenceMenuButton": "subscriptionMenuButton",
+                  "AutoShowPopup": true,
+                  "ComboBoxItems": null,
+                  "CustomAlertImage": null,
+                  "CustomAlertToolTipText": null,
+                  "CustomAlertToolTipTitle": null,
+                  "CustomLookupNameValues": null,
+                  "EditType": "HyperLinkEdit",
+                  "EnableCustomMask": false,
+                  "EnableTextEditor": false,
+                  "HasPrivacyInfo": false,
+                  "HideLabel": false,
+                  "HideShortDescriptionField": false,
+                  "IgnoreMask": false,
+                  "IgnorePropertyChangedEvent": false,
+                  "LabelDock": "Left",
+                  "LabelText": "Subscription",
+                  "LabelWidth": 110,
+                  "LinkType": "Subscription",
+                  "LongDescriptionField": null,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "NullValuePrompt": null,
+                  "Padding": "System.Windows.Forms.Padding",
+                  "Path": "HccIdentifier",
+                  "PHIRestricted": false,
+                  "PositiveOnlyCurrency": false,
+                  "ReadOnly": true,
+                  "ShortDescriptionField": null,
+                  "ShowCustomAlert": false,
+                  "Size": {
+                    "width": 417,
+                    "height": 29
+                  },
+                  "TabIndex": 5,
+                  "ToolTipPath": null,
+                  "Row": 1,
+                  "Column": 0
+                },
+                "childControls": []
+              }
+            ]
+          },
+          {
+            "name": "panelControlMemberOrSubscription",
+            "type": null,
+            "x": 0,
+            "y": 0,
+            "controls": [
+              "groupMemberOrSubscription"
+            ],
+            "parentControl": "autoSizingPanelSubscriptionMember",
+            "properties": {
+              "panelControlMemberOrSubscription": "HealthEdge.Controls.AutoSizingPanel",
+              "AutoHeight": true,
+              "AutoWidth": false,
+              "Dock": "Fill",
+              "Hidden": false,
+              "Margin": "System.Windows.Forms.Padding",
+              "Size": {
+                "width": 1301,
+                "height": 168
+              },
+              "TabIndex": 1,
+              "XPadding": 0,
+              "YPadding": 0,
+              "Row": 0,
+              "Column": 0
+            },
+            "childControls": [
+              {
+                "name": "groupMemberOrSubscription",
+                "type": null,
+                "x": 22,
+                "y": 4,
+                "controls": [
+                  "radioGroupMemberOrSubscription"
+                ],
+                "parentControl": "panelControlMemberOrSubscription",
+                "properties": {
+                  "groupMemberOrSubscription": "DevExpress.XtraEditors.GroupControl",
+                  "BackColor": "Transparent",
+                  "UseBackColor": true,
+                  "Margin": "System.Windows.Forms.Padding",
+                  "ShowCaption": false,
+                  "Size": {
+                    "width": 252,
+                    "height": 51
+                  },
+                  "TabIndex": 2,
+                  "Row": 0,
+                  "Column": 0
+                },
+                "childControls": [
+                  {
+                    "name": "radioGroupMemberOrSubscription",
+                    "type": "radioButton",
+                    "x": 4,
+                    "y": 9,
+                    "controls": null,
+                    "parentControl": "groupMemberOrSubscription",
+                    "properties": {
+                      "radioGroupMemberOrSubscription": "DevExpress.XtraEditors.RadioGroup",
+                      "EditValue": 0,
+                      "Margin": "System.Windows.Forms.Padding",
+                      "AllowMouseWheel": false,
+                      "BackColor": "Transparent",
+                      "UseBackColor": true,
+                      "BorderStyle": "NoBorder",
+                      "Items": [],
+                      "ReadOnly": true,
+                      "Size": {
+                        "width": 244,
+                        "height": 35
+                      },
+                      "TabIndex": 3,
+                      "SelectedIndexChanged": "System.EventHandler",
+                      "Row": 0,
+                      "Column": 0
+                    },
+                    "childControls": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
