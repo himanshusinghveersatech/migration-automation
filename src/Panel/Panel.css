@@ -39,3 +39,7 @@
   }
 
   
+  .auto{
+    display: flex;
+    justify-content: start;
+  }

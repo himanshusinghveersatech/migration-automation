@@ -8,8 +8,13 @@ import Dropdown from "../Dropdown";
 
 function Panel(props) {
   console.log("",props.item)
+
+  if(props.item.type !==  "radioButton"  && props.item.type !==  "dropdown" && props.item.type !== "button" && props.item.type !== "checkbox"  && props.item.type !== "Link" && props.item.type !== "textbox"){
+    return <></>;
+  }
+
   return (
-    <>
+    <div class="col-md-6 auto">
 
       {props.item && props.item.type === "radioButton" &&  <RadioGroup items={props.item} key={props.item.type}></RadioGroup>}
       {props.item && props.item.type === "dropdown" &&  <Dropdown items={props.item} name={props.item.properties.LabelText}></Dropdown>}
@@ -27,7 +32,7 @@ function Panel(props) {
             )} */}
     
       {/* <div className="bottom-right-text">{foot}</div> */}
-    </>
+    </div>
   
   )
 }

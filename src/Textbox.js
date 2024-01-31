@@ -6,7 +6,7 @@ import "./Textbox.css";
 function TextBox(item) {
   const styleLabel = { width: item.width ? item.width : null };
   return (
-    <>
+    <div class="col-md-12">
       <label>
       
           {item.item}
@@ -18,7 +18,7 @@ function TextBox(item) {
           name="item"
           placeholder={"Type here..."}
         />
-     </>
+     </div>
      
   );
 };

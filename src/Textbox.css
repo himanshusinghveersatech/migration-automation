@@ -1,7 +1,7 @@
 
 .text-input{
     margin-right: 3.5rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     padding: 0.5rem;
     width: 10rem;
     height: 0.7rem;
@@ -24,7 +24,7 @@
   .no-input{
     visibility: hidden;
     margin-right: 3.5rem;
-    margin-left: 2rem;
+     /* margin-left: 2rem; */
     padding: 0.5rem;
     width: 10rem;
   }
