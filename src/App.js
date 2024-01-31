@@ -1,6 +1,6 @@
 
 import './App.css';
-import { c } from './newmock.js';
+import { a } from './newmock.js';
 
 import NestedComponents from './NestedComponents';
 import JsonToForm from 'json-reactform';
@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 import Panel from "./Panel/Panel";
 // function render()
 function App() {
-  const b = c;  
+  const b = a;  
   
   const submit = (params) => {
     console.log(params);

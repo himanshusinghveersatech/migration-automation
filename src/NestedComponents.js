@@ -3,7 +3,7 @@ import './NestedComponents.css';
 function NestedComponents(props) {
     const x = props.data.childControls;
 
-    console.log(x,"xxxxxxxxxxxx");
+    
     return (
       
         <>
